@@ -1,0 +1,6 @@
+DataDirectory C:/Users/Mehmet/Desktop/PrivacyVPN/data/tor_data
+GeoIPFile C:/Users/Mehmet/Desktop/PrivacyVPN/bin/geoip
+GeoIPv6File C:/Users/Mehmet/Desktop/PrivacyVPN/bin/geoip6
+SocksPort 9050
+ControlPort 127.0.0.1:9051
+CookieAuthentication 0

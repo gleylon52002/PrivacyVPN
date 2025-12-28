@@ -1,0 +1,23 @@
+{
+    "last_mode": "fixed",
+    "selected_country": "any",
+    "auto_start": false,
+    "kill_switch": true,
+    "dns_leak_protection": false,
+    "webrtc_shield": false,
+    "multi_hop": true,
+    "dynamic_interval": 30,
+    "dark_mode": true,
+    "bridge_usage": false,
+    "bridge_type": "obfs4",
+    "bridges_list": [
+        "obfs4 192.95.36.142:443 CF5470125E34919782559CC06B62363198889973 cert=mGyzAnkH78llWZO0VvO8OgXInS6vKIn6F9T7H9n0R6G7C7G7C7G7C7G7C7G7A iat-mode=0",
+        "obfs4 193.11.166.194:27015 2D82C2493696CF9673AD371A6E63A69C4459D904 cert=963S9Yp1uKU9pkf1un0Yp1uKU9pkf1un0Yp1uKU9pkf1un0Yp1uKU9pkf1un0Yp1u iat-mode=0",
+        "obfs4 85.31.186.98:443 DE9B139FC335CDAD67C41892804364003E39F0B9 cert=RCO79mS18n87vJ6fP56C6uQ iat-mode=0"
+    ],
+    "stealth_mode": false,
+    "adblock_active": false,
+    "rotation_min": 0,
+    "entry_node": "Otomatik",
+    "exit_node": "Otomatik"
+}
