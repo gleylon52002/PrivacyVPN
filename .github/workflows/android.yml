@@ -11,9 +11,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
 
-    - name: Build with Buildozer
-      uses: kivy/buildozer-action@v1
+    - name: Build APK with Buildozer
+      uses: buildozer/buildozer-action@v1
       with:
-        workdir: .
-        buildozer_version: stable
         command: buildozer android debug
