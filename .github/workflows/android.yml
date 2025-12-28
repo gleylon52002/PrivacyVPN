@@ -15,6 +15,7 @@ jobs:
     - name: Build APK with Buildozer (Docker)
       run: |
         docker run --rm \
+          -e BUILDOZER_NO_ROOT_CHECK=1 \
           -v ${{ github.workspace }}:/app \
           kivy/buildozer \
           buildozer android debug
